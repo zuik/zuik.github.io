@@ -1,3 +1,25 @@
 .container {
     margin: 0 auto;
+    text-align: center;
+    .nav{
+        border-bottom: solid black;
+        border-top: solid black;
+        
+        ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            
+            li {
+                list-style: none;
+                font-size: 20px;
+                margin-top: .5em;
+                margin-bottom: .5em;
+                margin-left: .5em;
+            }
+        }
+    }
 }
+
