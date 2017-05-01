@@ -6,7 +6,8 @@
     "node-sass": "^4.5.2",
     "npm-run-all": "^4.0.2",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-router-dom": "next"
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
