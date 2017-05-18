@@ -1,3 +1,16 @@
+@media(max-width: 445px){
+  .sflex{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media(min-width: 445px){
+  .sflex{
+    display: flex;
+    flex-direction: row;
+  }
+}
+
 header {
   display: flex;
   flex-flow: column wrap;
