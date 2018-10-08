@@ -4,60 +4,65 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"><!-- Bootstrap CSS -->
-    <link href="/index.css" rel="stylesheet">
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<!-- <link href="/index.css" rel="stylesheet"> -->
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link href="./tufte.css" rel="stylesheet">
 	<title>zui</title>
 </head>
 <body>
-	<header>
-		<h1>Duy Nguyen</h1>
-		<ul>
-			<li>
-				<a href="#about">About</a>
-			</li>
-			<li>
-				<a href="#projects">Projects</a>
-			</li>
-			<li>
-				<a href="#thoughts">Thoughts</a>
-			</li>
-		</ul>
-	</header>
-	<div class="container">
-		<h2><a id="about" name="about">About</a></h2>
-		<p>I'm a computer science student at Boston University. As you can tell by the way this page was hasty put together using Bootstrap, web design isn't one of my specialties. However, I am interested in learning more about new technologies and experiment with them.</p>
-		<h2><a id="projects" name="projects">Projects</a></h2>
-		<div class="mt-3 card-column">
-			<div class="card mb-2 sflex">
-				<div class="d-flex justify-content-center align-items-center"><img alt="Card image cap" class="card-img-top img-fluid w-10" src="https://github.com/Arod15/HappyTweet/raw/master/happy_tweet_web/src/JRBB_logo.png" style="max-height: 10em; max-width: 10em;"></div>
-				<div class="card-block">
-					<h4 class="card-title">HappyTweet</h4>
-					<h6 class="card-subtitle mb-2 text-muted">Finalist project at HackBeanPot</h6>
-					<h6 class="card-subtitle mb-2 text-muted">Built with <span class="badge badge-default badge-react">React</span> <span class="badge badge-default">Flask</span> <span class="badge badge-default badge-mongo">mongoDB</span></h6>
-					<p class="card-text">Ever wonder how happy you sound to others on Twitter? Or how sad? Or angry? Well, now you can use this Jackie Robinson Beanie Babies project to find out! You'll also be able to tell how other local Twitter users sound through their tweets, as well!</p><a class="card-link" href="https://github.com/Arod15/HappyTweet"><i aria-hidden="true" class="fa fa-github"></i> Source</a>
-				</div>
-			</div>
-			<div class="card mb-2 sflex">
-				<div class="d-flex justify-content-center align-items-center"><img alt="Card image cap" class="card-img-top img-fluid w-10" src="https://res.cloudinary.com/devpost/image/fetch/s--t9tq5zo---/https://raw.githubusercontent.com/zuik/defit/master/defit/logo.jpg" style="max-height: 10em;"></div>
-				<div class="card-block">
-					<h4 class="card-title">Stuck</h4>
-					<h6 class="card-subtitle mb-2 text-muted">Second placed project at BostonHacks</h6>
-					<h6 class="card-subtitle mb-2 text-muted">Built with <span class="badge badge-default" style="background-color:#f12545;">Twilio API</span> <span class="badge badge-default">Flask</span></h6>
-					<p class="card-text">Stuck allows the user to search a word in the dictionary, find restaurants near a location, and weather in a certain area through SMS (obviously, the user does not need to be connected to the internet). Stuck can also act as a translator between two users.</p><a class="card-link" href="https://github.com/zuik/defit"><i aria-hidden="true" class="fa fa-github"></i> Source</a>
-				</div>
-			</div>
-		</div>
-		<h2 class="mt-2"><a id="thoughts" name="thoughts">Thoughts</a></h2>
-		<p>Still thinking, please check back later.</p>
-	</div>
-	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js">
-	</script> 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js">
-	</script> 
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js">
-	</script>
-    <script>
+
+<article>
+
+<h1>Duy Nguyen</h1>
+
+<section>
+<h2 id="aboutme">About me</h2>
+
+<p>Hello! I am currently a junior at Boston University pursuing a Bachelor of Arts in Computer Science and Linguistics. </p>
+
+<p>I am interested in machine learning, natural language processing, and cybersecurity.</p>
+
+<p>Other places where I could be found:</p>
+
+<ul>
+<li><a href="https://github.com/zuik">Github</a></li>
+
+<li><a href="https://www.linkedin.com/in/zuikng/">LinkedIn</a></li>
+
+<li><a href="https://devpost.com/zui">Devpost</a></li>
+</ul>
+
+</section>
+
+<section>
+<h2 id="projects">Projects</h2>
+
+<p><strong>Mad Invest</strong> | <a href="https://github.com/varshaachar/Mad-Invest"><i class="fab fa-github-square"></i></a> </p>
+
+<p>Cloudflare award at YHack 2017. Mad Invest is a Messenger chatbot that uses sentiment analyses from social media sources (Twitter, Reddit, etc.) to provide user with BitCoin investment advices.</p>
+
+<p><strong>Werd</strong> | <a href="https://github.com/sarmsaad/werd-hackharvard"><i class="fab fa-github-square"></i></a> </p>
+
+<p>Google Cloud award at HackHarvard 2017. Werd (pronounce "word!") is a web app that provides the context to the word used by showing clips from YouTube that have the word being spoken.</p>
+
+<p><strong>Stuck</strong> | <a href="https://github.com/zuik/stuck"><i class="fab fa-github-square"></i></a> </p>
+
+<p>
+Second place at BostonHacks Spring 2017. Stuck is a SMS portal that provide user the ability to access to various "internet convinience" like checking for weather, defining words, or searching yelp.</p>
+
+<p><strong>HappyTweet</strong> | <a href="https://github.com/Arod15/HappyTweet"><i class="fab fa-github-square"></i></a> </p>
+
+<p>Finalist at HackBeanPot 2017. HappyTweet uses indico's API to get sentiment analyses of Twitter's stream over a region (cities, countries, etc.) and allow the user to compare the average sentiment of the tweets in a twitter handle with the average sentiment of the region.</p>
+</section>
+</article>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
