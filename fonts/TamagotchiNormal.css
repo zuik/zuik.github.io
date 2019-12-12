@@ -1,6 +1,5 @@
 @font-face {
   font-family: "Tamagotchi";
-  src: url("https://zkn.io/fonts/TamagotchiNormal/TamagotchiNormal.eot"); /* IE9*/
   src: url("https://zkn.io/fonts/TamagotchiNormal/TamagotchiNormal.woff2")
       format("woff2"),
     /* chrome firefox */
@@ -11,7 +10,6 @@
       format("truetype"),
     /* chrome firefox opera Safari, Android, iOS 4.2+*/
       url("https://zkn.io/fonts/TamagotchiNormal/TamagotchiNormal.svg")
-      format("svg") /* iOS 4.1- */
-      url("https://zkn.io/fonts/TamagotchiNormal/TamagotchiNormal.otf")
-      format("otf");
+      format("svg"); /* iOS 4.1- */
+      
 }
